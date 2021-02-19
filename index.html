@@ -23,6 +23,71 @@
 </head>
 
 <body>
+    <!--preloader-->
+    <!--end preloader-->
+
+    <!--nav element-->
+    <!--using bootstrap-->
+    <nav class="navbar navbar-expand-lg px-3" id="navBar"> 
+        <a href="#" class="navbar-brand"><!--href="#" point nowhere-->
+            <img src="Img/logo4.png" alt="logo">
+        </a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav">  
+            <span class="navbar-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <!-- -->
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a href="#navBar" class="nav-link">
+                        home
+                    </a> <!--when we click we want to go to our navBar-->
+                </li>
+                <li class="nav-item">  <!--keeping 'active' only in first li-->
+                    <a href="#skill" class="nav-link">  <!--making link-->
+                        skill
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#inventory" class="nav-link">
+                        inventory
+                    </a> 
+                </li>
+                <li class="nav-item">
+                    <a href="#featured" class="nav-link">
+                        featured
+                    </a> 
+                </li>
+            </ul>
+
+            <!--social icons-->
+            <div class="nav-icons d-none d-lg-block">
+                <!--this is nothing to do with bootstrap-->
+                <!--once i get my screen size large I want to show the social icons-->
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-facebook"></i> <!--using font awesome for facebook icon-->
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-twitter"></i> <!--using font awesome for twitter icon-->
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fab fa-instagram"></i> <!--using font awesome for instagram icon-->
+                </a>
+
+
+            </div> 
+        </div>
+        
+    </nav>
+
+     <!-- end of nav element-->
+
+
+
+
 
 
 
@@ -30,7 +95,7 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     
     <!--bootstrap js-->
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <!--script js-->
     <script src="js/script.js"></script>
