@@ -25,14 +25,21 @@ body{
 
 }
 
+#logo{
+    height: 2.5rem;
+}
+
 .navbar-icon{
     font-size: 2rem;
-    color: var(--mainBlue);
+    color:var(--mainBlue);
 }
 
 .navbar-toggler{
-    outline-color: var(--mainBlue)!important; /*we are overwriting the bootstrap default value*/
+    outline-color: #e3b505!important;
 }
+
+
+
 
 .nav-link{
     color: var(--mainBlack);
@@ -55,3 +62,38 @@ body{
     color: var(--mainBlack);
 }
 
+/* header */
+.header{
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+    color: var(--mainWhite);
+}
+.height-max{
+    min-height: calc(100vh - 66px); /*100 view height(vh) set = 100% of of any screen size*/
+    background: url('../Img/Royal_Enfield.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.title-heading{
+    background: rgba(0,0,0,0.4);
+    border-left: 0.3rem solid var(--mainBlue);
+}
+.title{
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+@media screen and (min-width:768px){
+    .title{
+        font-size:3rem;
+    }
+}
+.title-icon{
+    color: var(--mainBlue);
+    text-decoration:none!important;
+}
+.title-icon:hover{
+    color: var(--mainBlue);
+    opacity: 0.6;
+}
