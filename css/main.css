@@ -178,3 +178,80 @@ body{
     clip-path: polygon(0% 0,100% 0,100% 100%,0 100%);
 }
 
+/* question */
+.question{
+    background: url('../Img/header.jpg')center/cover fixed no-repeat;
+}
+.question-grey{
+    background: rgba(103, 111, 117, 0.75);
+}
+.question-yellow{
+    background: rgba(227, 181, 5.0, 0.75);
+}
+.question-icon{
+    font-size: 4rem;
+    color: var(--mainBlue);
+    transition: all 0.5s ease-in-out;
+}
+.question-icon:hover{
+    transform: translateY(-11%);
+    color: var(--mainBlue);
+}
+.question-info{
+    color: var(--mainWhite);
+}
+
+/* ranking dog */
+#ranking{
+    background: var(--mainGrey);
+}
+.ranking-item{
+    background: var(--mainWhite);
+    border-radius: 0.5rem;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.ranking-item:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+.ranking-icon{
+    font-size: 2rem;
+    color: var(--mainYellow);
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.ranking-icon:hover{
+    color: var(--mainBlue);
+}
+.img-container{
+    background: var(--mainBlue);
+    position: relative;
+    overflow: hidden;
+}
+.ranking-photo{
+    transition: all 1s ease-in-out;
+    
+    
+}
+.img-container:hover .ranking-photo{
+    transform: scale(1.3);
+    opacity: 0.6;
+}
+.ranking-link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    color: var(--mainBlack);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.ranking-link:hover{
+    color: var(--mainWhite);
+}
+.img-container:hover .ranking-link{
+    opacity: 1;
+}
